@@ -4,7 +4,7 @@ import {Spring} from 'react-spring';
 export default function Component1() {
   return (
     <Spring
-    from={{ opacity: 0, marginTop: -500}}
+    from={{ opacity: 10, marginTop: -500}}
     to={{ opacity: 1, marginTop: 0 }}
      >
     {props => (
